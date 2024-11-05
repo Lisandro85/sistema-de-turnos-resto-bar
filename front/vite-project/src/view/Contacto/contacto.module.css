@@ -1,0 +1,57 @@
+.parrafo {
+    margin: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: justify;
+}
+
+.datos {
+    margin-left: 20px;
+    font-family: cursive;
+}
+
+.datos h2 {
+    margin: 10px;
+}
+
+.datos span {
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.horarioReserva {
+    margin: 20px;
+    font-family: cursive;
+    color: #000000; 
+    text-align: left !important; 
+}
+
+.horarioReserva h3 {
+    color: #000000;
+    text-align: left !important;  
+}
+
+.horarioReserva ul {
+    list-style-type: disc;
+    margin-left: 20px; 
+}
+
+.horarioReserva li {
+    margin: 5px 0; 
+}
+.title {
+    margin: 10px;
+    font-size: 1.5em;
+    color: #ffffff; 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid #ffffff;
+}

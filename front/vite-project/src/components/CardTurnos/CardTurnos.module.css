@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #9a9494;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  justify-content:space-around; /* Espacio uniforme entre columnas */
+  align-items: center;
+  height: 100px;
+}
+  .card:hover{
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    background-color: #e9ecef; 
+
+  }
+
+  .card p{
+    color:rgb(47, 42, 42);
+    font-family: cursive;
+  }
+
+  .card span{
+    color: rgb(40, 37, 37);
+    font-family: cursive;
+    font-weight: bolder;
+  }
+
+
+
+.cancelBtn{
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  font-family: cursive;
+  background-color: #2c3e50;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  padding: 10px;
+  width: 120px;
+  height: 50px;
+}
+
+.cancelBtn:disabled{
+  background-color: #bdbdb7;
+  cursor: not-allowed;
+}
+.card .statusActive {
+  color: green; /* Color verde para el estado activo */
+  font-weight: bold; /* Opción para resaltar el texto */
+}
+
+.card .statusCancelled {
+  color: rgb(182, 53, 53); /* Color rojo para el estado cancelado */
+  font-weight: bold; /* Opción para resaltar el texto */
+}
+
+.column{
+  flex: 1; /* Cada columna tomará el mismo espacio */
+  padding: 10px; /* Espaciado interno para cada columna */
+}
