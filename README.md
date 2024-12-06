@@ -33,10 +33,11 @@ Asegúrate de tener instalados los siguientes programas:
 - [Git](https://git-scm.com/)  
 
 
-```bash
-1️⃣ Clona el Repositorio
-git clone https://github.com/Lisandro85/sistema-de-turnos-resto-bar
 
+1️⃣ Clona el Repositorio
+```bash
+git clone https://github.com/Lisandro85/sistema-de-turnos-resto-bar
+```
 2️⃣ Configura las Variables de Entorno
 Backend:
 Crea un archivo .env en la raíz del directorio backend y agrega las siguientes variables de configuración:
