@@ -72,10 +72,10 @@ npm start
 ```
 
 ### 🛠 Comandos Útiles
-env
+```env
 npm run start      Inicia el servidor en modo desarrollo.
 npm run build      Compila el proyecto para producción.
-
+```
 ---
 ### 📧 Contacto
 Para preguntas o sugerencias, puedes contactarme:
