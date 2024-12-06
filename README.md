@@ -42,23 +42,23 @@ git clone https://github.com/Lisandro85/sistema-de-turnos-resto-bar
 Backend:
 Crea un archivo .env en la raíz del directorio backend y agrega las siguientes variables de configuración:
 
-env
+```env
 DB_HOST=localhost
 DB_USER=tu_usuario
 DB_PASSWORD=tu_contraseña
 DB_NAME=nombre_base_de_datos
 PORT=5000
-Frontend (opcional):
-Crea un archivo .env en la raíz del directorio frontend y agrega la siguiente variable de configuración:
-
-env
-REACT_APP_API_URL=http://localhost:5000
+```
 3️⃣ Instala las Dependencias para el Backend
 Navega a la carpeta backend e instala las dependencias necesarias:
+```env
 npm install
+```
 4️⃣ Instala las Dependencias para el Frontend
 Navega a la carpeta frontend e instala las dependencias necesarias:
+```env
 npm install
+```
 5️⃣ Inicia el Servidor Backend
 Inicia el servidor backend:
 npm run start
@@ -66,14 +66,16 @@ El backend estará corriendo en http://localhost:5000.
 
 6️⃣ Inicia el Servidor Frontend
 Navega al directorio frontend y ejecuta el servidor de desarrollo:
+```env
 npm start
-El frontend estará corriendo en http://localhost:3000.
+```
 
-🛠 Comandos Útiles
+### 🛠 Comandos Útiles
 
 npm run start      Inicia el servidor en modo desarrollo.
 npm run build      Compila el proyecto para producción.
-npm run migrate    Ejecuta las migraciones de base de datos.
-📧 Contacto
+
+---
+### 📧 Contacto
 Para preguntas o sugerencias, puedes contactarme:
 📩 lisandrobedotti@hotmail.com
