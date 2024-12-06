@@ -20,7 +20,6 @@ Aplicación para gestionar turnos y reservas en restaurantes. Permite a los clie
 | **Express**    | Framework minimalista para Node.js para construir aplicaciones web rápidas. |
 | **PostgreSQL** | Base de datos relacional y escalable. |
 | **TypeScript** | Superconjunto de JavaScript con tipado estático para mayor seguridad y desarrollo más eficiente. |
-| **Sequelize**  | ORM de Node.js para trabajar con bases de datos SQL. |
 | **React**      | Biblioteca para construir interfaces de usuario interactivas. |
 | **CSS**        | Estilos básicos y diseño de la interfaz de usuario. |
 
