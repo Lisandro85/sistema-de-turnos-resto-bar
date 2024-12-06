@@ -61,8 +61,9 @@ npm install
 ```
 5️⃣ Inicia el Servidor Backend
 Inicia el servidor backend:
+```env
 npm run start
-El backend estará corriendo en http://localhost:5000.
+```
 
 6️⃣ Inicia el Servidor Frontend
 Navega al directorio frontend y ejecuta el servidor de desarrollo:
